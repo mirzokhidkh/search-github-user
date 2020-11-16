@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 import {NavLink} from "react-router-dom";
 import "./navbar.css";
 
 export const Navbar = () => (
     <nav className="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
-        <a className="navbar-brand" href="#"> Github Search</a>
+        <a className="navbar-brand" href="/"> Github Search</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"/>
         </button>
